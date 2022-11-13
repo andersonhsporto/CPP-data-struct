@@ -33,7 +33,6 @@ class Tree {
     int height;
   };
 
-
  private:
   void makeEmpty(Node *t);
 
@@ -60,8 +59,6 @@ class Tree {
   int getBalance(Node *t);
 
   void printTree(Node *t);
-
-
 
  private:
   Node *root;

@@ -9,5 +9,8 @@ int main() {
   tree.insert(1);
 
   tree.print();
+  tree.remove(4);
+
+    tree.print();
   return 0;
 }

@@ -37,6 +37,7 @@ void Tree::remove(int key) {
 
 void Tree::print() {
   printTree(this->root);
+  std::cout << std::endl;
 }
 
 void Tree::makeEmpty(Node *t) {
