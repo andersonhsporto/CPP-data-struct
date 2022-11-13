@@ -1,7 +1,7 @@
 #include "Tree.hpp"
 
 int main() {
-  Tree tree;
+  Tree tree(42);
 
   tree.insert(4);
   tree.insert(2);

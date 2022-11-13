@@ -1,7 +1,7 @@
 NAME	= Tree
 
 CC		= clang++
-CFLAGS	= -Wall -Wextra -Werror -g -std=c++98
+CFLAGS	= -Wall -Wextra -Werror -g -gdwarf-4 -std=c++98
 
 SRC		=	main.cpp \
 			Tree.cpp
